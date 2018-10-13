@@ -40,7 +40,8 @@ body {
     padding: 1em 0;
 }
 
-#search-keyword {
+#search-keyword,
+#search-index {
     border: none;
     border-radius: 4px;
     flex-grow: 1;
@@ -159,5 +160,6 @@ ul {
     padding: 0;
     position: absolute;
     width: 1px;
-    white-space: nowrap; /* 1 */
+    white-space: nowrap;
+    /* 1 */
 }
